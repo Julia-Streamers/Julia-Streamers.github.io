@@ -26,3 +26,12 @@ For instance:
 -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
+\newcommand{\streamer}[4]{
+    @@card 
+        @@avatar ~~~<img src="/assets/streamers/!#3"/>~~~ @@ 
+        @@badge ~~~<a href="https://www.twitch.tv/!#1"><img src="https://img.shields.io/twitch/status/!#1?label=!#2&logo=twitch&logoColor=blue"/></a>~~~ @@
+        @@name #2 @@ 
+        @@desc #4 @@ 
+    @@}
+
+\newcommand{\style}[2]{~~~<span style="!#1">!#2</span>~~~}
