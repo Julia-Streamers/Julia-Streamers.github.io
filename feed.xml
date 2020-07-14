@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Franklin Template</title>
-  <description><![CDATA[Example website using Franklin
+  <title>Julia Streamers</title>
+  <description><![CDATA[Here is where you find all things Julia streaming&#33;
 ]]></description>
   <link>https://tlienart.github.io/FranklinTemplates.jl/</link>
   <atom:link href="https://tlienart.github.io/FranklinTemplates.jl/feed.xml" rel="self" type="application/rss+xml" />
