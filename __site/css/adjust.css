@@ -1,1 +1,72 @@
-@charset "utf-8";html{font-size:17px}.franklin-content{position:relative;padding-left:0;padding-right:0;line-height:1.35em}@media (min-width:940px){.franklin-content{width:100%;margin-left:auto;margin-right:auto}}@media (max-width:768px){.franklin-content{padding-left:6%;padding-right:6%}}
+html {
+    font-size: 17px;
+}
+
+.franklin-content {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.35em; }
+
+/* on wide screens, fix content width to a max value */
+@media (min-width: 940px) {
+    .franklin-content {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; }
+    }
+
+/* on narrow device, reduce margins */
+@media (max-width: 768px) {
+    .franklin-content {
+        padding-left: 6%;
+        padding-right: 6%; }
+    }
+
+/*
+    Streamer command
+*/
+.streamers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.badge img {
+    height: 25px;
+    width: auto;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .name {
+    padding-left: 6px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.card .desc {
+    padding: 0px 6px;
+}
+

@@ -5,6 +5,11 @@
 
 I would like to thank all the viewers of this stream for helping with making the website possible! 
 
+~~~<div class="streamers">~~~
+\streamer{opensourcesblog}{OpenSourcES}{opensourcesblog.png}{I mostly stream about project Euler.}
+\streamer{thecedarprince}{thecedarprince}{favicon.png}{I work on open source projects as well as exercism.io and linear algebra.}
+~~~</div>~~~
+
 \tableofcontents <!-- you can use \toc as well -->
 
 This section is meant as a refresher if you're new to Franklin.

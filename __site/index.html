@@ -50,6 +50,7 @@ content to avoid any CSS collisions with our real content. -->
 <!-- Content appended here -->
 <div class="franklin-content"><h1 id="how_to_use_franklin"><a href="#how_to_use_franklin">How to use Franklin</a></h1>
 <p>I would like to thank all the viewers of this stream for helping with making the website possible&#33; </p>
+<div class="streamers"> <div class="card"><div class="avatar"><img src="/assets/streamers/opensourcesblog.png"/></div>          <div class="badge"><a href="https://www.twitch.tv/opensourcesblog"><img src="https://img.shields.io/twitch/status/opensourcesblog?label=OpenSourcES&logo=twitch&logoColor=blue"/></a></div>         <div class="name">OpenSourcES</div>          <div class="desc">I mostly stream about project Euler.</div></div> <div class="card"><div class="avatar"><img src="/assets/streamers/favicon.png"/></div>          <div class="badge"><a href="https://www.twitch.tv/thecedarprince"><img src="https://img.shields.io/twitch/status/thecedarprince?label=thecedarprince&logo=twitch&logoColor=blue"/></a></div>         <div class="name">thecedarprince</div>          <div class="desc">I work on open source projects as well as exercism.io and linear algebra.</div></div> </div>
 <div class="franklin-toc"><ol><li><a href="#the_base_with_markdown">The base with Markdown</a><ol><li><a href="#symbols_and_html_entities">Symbols and html entities</a></li></ol></li><li><a href="#basic_franklin_extensions">Basic Franklin extensions</a><ol><li><a href="#divs">Divs</a></li><li><a href="#latex_and_maths">LaTeX and Maths</a></li><li><a href="#a_quick_note_on_whitespaces">A quick note on whitespaces</a></li><li><a href="#raw_html">Raw HTML</a></li></ol></li><li><a href="#pages_and_structure">Pages and structure</a></li><li><a href="#references_not_really">References &#40;not really&#41;</a></li><li><a href="#header_and_footer">Header and Footer</a></li></ol></div> </p>
 <p>This section is meant as a refresher if you&#39;re new to Franklin. Have a look at both how the website renders and the corresponding markdown &#40;<code>index.md</code>&#41;. Modify at will to get a feeling for how things work&#33;</p>
 <p>Ps: if you want to modify the header or footer or the general look of the website, adjust the files in</p>
@@ -122,7 +123,7 @@ end</code></pre>
 </ol>
 <p>The definitions can be introduced in the page or in the <code>config.md</code> &#40;in which case they&#39;re available everywhere as opposed to just in that page&#41;. For instance, the commands <code>\scal</code> and <code>\R</code> are defined in the config file &#40;see <code>src/config.md</code>&#41; and can directly be used whereas the command <code>\E</code> is defined below &#40;and therefore only available on this page&#41;:</p>
 <p>Now we can write something like</p>
-<a id="equation_blah"></a>\[  \varphi(\mathbb E\left[ X\right]) \le \mathbb E\left[ \varphi(X)\right].  \]
+<a id="equation_blah" class="anchor"></a>\[  \varphi(\mathbb E\left[ X\right]) \le \mathbb E\left[ \varphi(X)\right].  \]
 <p>since we&#39;ve given it the label <code>\label&#123;equation blah&#125;</code>, we can refer it like so: <span class="eqref">(<a href="#equation_blah">1</a>)</span> which can be convenient for pages that are math-heavy.</p>
 <p>In a similar vein you can cite references that would be at the bottom of the page: <span class="bibref">(<a href="#noether15">Noether (1915)</a>, <a href="#bezanson17">Bezanson et al. (2017)</a>)</span>.</p>
 <p><strong>Note</strong>: the LaTeX commands you define can also incorporate standard markdown &#40;though not in a math environment&#41; so for instance let&#39;s define a silly <code>\bolditalic</code> command.</p>
@@ -170,9 +171,9 @@ end</code></pre>
 </ul>
 <h2 id="references_not_really"><a href="#references_not_really">References &#40;not really&#41;</a></h2>
 <ul>
-<li><p><a id="noether15"></a> <strong>Noether</strong>,  Körper und Systeme rationaler Funktionen, 1915.</p>
+<li><p><a id="noether15" class="anchor"></a> <strong>Noether</strong>,  Körper und Systeme rationaler Funktionen, 1915.</p>
 </li>
-<li><p><a id="bezanson17"></a> <strong>Bezanson</strong>, <strong>Edelman</strong>, <strong>Karpinski</strong> and <strong>Shah</strong>, <a href="https://julialang.org/research/julia-fresh-approach-BEKS.pdf">Julia: a fresh approach to numerical computing</a>, SIAM review 2017.</p>
+<li><p><a id="bezanson17" class="anchor"></a> <strong>Bezanson</strong>, <strong>Edelman</strong>, <strong>Karpinski</strong> and <strong>Shah</strong>, <a href="https://julialang.org/research/julia-fresh-approach-BEKS.pdf">Julia: a fresh approach to numerical computing</a>, SIAM review 2017.</p>
 </li>
 </ul>
 <h2 id="header_and_footer"><a href="#header_and_footer">Header and Footer</a></h2>
