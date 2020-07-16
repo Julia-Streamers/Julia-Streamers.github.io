@@ -7,7 +7,7 @@ The website_* must be defined for the RSS to work
 @def website_descr = "Here is where you find all things Julia streaming!"
 @def website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
 
-@def author = "Septimia Zenobia"
+@def author = "Jacob S. Zelko"
 
 @def mintoclevel = 2
 
