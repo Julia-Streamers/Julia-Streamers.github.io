@@ -71,9 +71,10 @@ html {
 }
 
  img#website-logo {
-    height: 25px;
+    height: 100px;
     width: auto;
     padding: 0;
+    padding-top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
