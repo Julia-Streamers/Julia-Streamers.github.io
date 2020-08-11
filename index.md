@@ -9,6 +9,6 @@
 
 \streamer{opensourcesblog}{OpenSourcES}{opensourcesblog.png}{I mostly stream about project Euler but also on [ConstraintSolver.jl](https://github.com/Wikunia/ConstraintSolver.jl) and [Javis.jl](https://github.com/Wikunia/Javis.jl)}
 
-\streamer{evalprase}{evalparse}{favicon.png}{I stream on everything that can be evaluated and parsed}
+\streamer{evalprase}{evalparse}{evalparse_io_logo.png}{I stream on everything that can be evaluated and parsed}
 ~~~</div>~~~
 
