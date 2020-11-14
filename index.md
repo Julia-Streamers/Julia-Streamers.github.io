@@ -11,6 +11,6 @@
 
 \streamer{evalprase}{evalparse}{evalparse_io_logo.png}{I stream on everything that can be evaluated and parsed}
 
-\streamer{BrainRPG}{BrainRPG}{https://upload.wikimedia.org/wikipedia/commons/8/85/Cerebral_lobes.png}{I work on open source Julia contributions to physics (numerical relativity), high performance codes, spanish translations and tutorials. All are welcome and we try to be educational.}
+\streamer{BrainRPG}{BrainRPG}{BrainRPG.png}{I work on open source Julia contributions to physics (numerical relativity), high performance codes, spanish translations and tutorials. All are welcome and we try to be educational.}
 ~~~</div>~~~
 
